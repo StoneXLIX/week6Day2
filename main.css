@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    background-color: #faf7e6;
+}
+#container{
+    
+    width: 700px;
+    height: 600px;
+    background-color: #faf7e6;
+    margin: 30px  auto; 
+}
+.aj{
+    display: flex; 
+    flex-flow: row wrap; 
+    margin-left: 50px; 
+    margin-right: 70px; 
+    background-color: #faf7e6;
+}
+.box{
+    background-color: black;
+    width: 125px; 
+    height: 125px;
+    margin: 10px; 
+}
+.changeColor{
+    background-color: gray;
+}
